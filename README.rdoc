@@ -1,28 +1,7 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Brandeis, Spring 2014, SE for ITE, Deliverable 15.2, forms exercise
 
-Things you may want to cover:
+A little app with a manually created form.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+{<img src="https://codeclimate.com/github/gekonwi/SE-for-ITE.deliverable_15_2.png" />}[https://codeclimate.com/github/gekonwi/SE-for-ITE.deliverable_15_2]
