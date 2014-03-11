@@ -1,0 +1,12 @@
+<%= form_tag("/simple_form/search", method: "get") do %>
+	<%= label_tag(:q, "Search for:") %>
+	<%= text_field_tag(:q) %>
+	<%= submit_tag("Search") %> <br>
+
+	<h3>Known languages:</h3>
+
+	<% %w(Java Ruby C C++ C# Objective-C Python VBA Prolog Scheme).each do |lang|%>
+	<%= check_box_tag('known_lang[]', lang) %>
+	<%= label_tag(lang, lang) %>
+	<% end %>
+<% end %>

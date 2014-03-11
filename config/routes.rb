@@ -1,4 +1,7 @@
 SEForIteDeliverable151::Application.routes.draw do
+
+  get 'simple_form', to: 'simple_form#index'
+  get 'simple_form/search'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

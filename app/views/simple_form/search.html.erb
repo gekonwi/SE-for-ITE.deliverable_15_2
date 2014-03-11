@@ -1,0 +1,13 @@
+<p>You searched for</p>
+
+<p>"<%= params[:q] %>"</p>
+
+<p>And I would love to serve you... </p>
+
+<% if ! @lang_statement.nil? %>
+<p><%=@lang_statement %><p>
+<% end %>
+
+<p>If only I had a database ...</p>
+
+<%= button_to '<< back to search', "/simple_form", :method => :get %>
